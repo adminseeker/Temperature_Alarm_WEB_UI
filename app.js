@@ -19,8 +19,8 @@ var interval;
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'aravindarali125@gmail.com',
-    pass: 'aravind0609'
+    user: 'email',
+    pass: 'password'
   }
 });
 
