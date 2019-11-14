@@ -25,8 +25,8 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-  from: 'aravindarali125@gmail.com',
-  to: 'aravindarali125@gmail.com',
+  from: 'email',
+  to: 'password',
   subject: 'Message from Temperature Alarm',
   text: ''
 };
